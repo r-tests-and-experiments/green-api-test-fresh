@@ -5,7 +5,7 @@ import {
   getStateInstance,
   sendFileByUrl,
   sendMessage,
-} from "@/api/api.ts";
+} from "../api/api.ts";
 
 export default function Form() {
   const [result, resultSet] = useState("");
